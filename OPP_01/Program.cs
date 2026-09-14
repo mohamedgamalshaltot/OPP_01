@@ -26,6 +26,13 @@ namespace OPP_01
             Genre genre = (Genre)genreNumber;
             Console.WriteLine(genre);
             #endregion
+            #region Question 07 in session 05
+            //7-Given string genreText = "Science";, convert it into a Genre value using
+            //             Enum.Parse() and print the result.
+            string genreText = "Science";
+            Genre genre01 = (Genre)Enum.Parse(typeof(Genre), genreText);
+            Console.WriteLine(genre01);
+            #endregion
 
         }
     }
