@@ -13,6 +13,16 @@ namespace OPP_01
             myBook.BookGenre = Genre.Science;
             Console.WriteLine(myBook.BookGenre);
             #endregion
+            #region Question 05 in session 05
+            //5-Using the Genre enum above, print the underlying int value of
+            //Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
+            Console.WriteLine((int)Genre.Fiction);
+            Console.WriteLine((int)Genre.NonFiction);
+            Console.WriteLine((int)Genre.Science);
+            #endregion
+            #region 
+
+            #endregion
         }
     }
 }
