@@ -33,6 +33,20 @@ namespace OPP_01
             Genre genre01 = (Genre)Enum.Parse(typeof(Genre), genreText);
             Console.WriteLine(genre01);
             #endregion
+            #region  Question 08 in session 05
+            // 8-Given string genreText = "Mystery"; (not a valid Genre value), use
+            // Enum.TryParse() to attempt the conversion. Print "Unknown genre" if it
+            //fails.
+            string genreText01 = "Mystery";
+            if (Enum.TryParse(typeof(Genre), genreText01, out object result))
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
+            #endregion
 
         }
     }
