@@ -20,9 +20,7 @@ namespace OPP_01
             Console.WriteLine((int)Genre.NonFiction);
             Console.WriteLine((int)Genre.Science);
             #endregion
-            #region 
-
-            #endregion
+            
         }
     }
 }
