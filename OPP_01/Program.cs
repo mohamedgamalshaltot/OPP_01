@@ -55,6 +55,12 @@ namespace OPP_01
             //(b)b) What happens when a Customer variable is copied into another variable and one variable modifies the object
             //* Since ⁠Customer⁠ is defined as a ⁠class⁠, it is a Reference Type.When copied, both variables point to the same object in memory(on the Heap).Modifying the object through one variable will affect the other variable since they reference the same object.
             #endregion
+            #region opp01 Part01 Question02
+            //a) a) Identify at least three problems with this design from an encapsulation perspective.
+            //* The fields are public, which violates encapsulation principles.Encapsulation suggests that fields should be private and accessed through public methods or properties.
+            //* The class lacks validation logic for the fields, which can lead to invalid states or data inconsistencies.
+            //*Flexibility & Immutability: Properties allow creating read-only fields (by omitting the ⁠set⁠ accessor or making it ⁠private⁠/⁠init⁠), ensuring data integrity after initialization.
+            #endregion
 
         }
     }
