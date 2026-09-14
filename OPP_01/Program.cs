@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.Collections;
+using System.Drawing;
 
 namespace OPP_01
 {
@@ -46,6 +47,13 @@ namespace OPP_01
             {
                 Console.WriteLine("Unknown genre");
             }
+            #endregion
+
+            #region opp01 Part01 Question01 (A)
+            //a) What happens when a DeliveryAddress variable is copied into another variable and the copy is modified?
+            //* Since ⁠DeliveryAddress⁠ is defined as a ⁠struct⁠, it is a Value Type.When copied, a completely independent copy of the value is created in memory(on the Stack).Modifying the copied variable will not affect the original variable.
+            //(b)b) What happens when a Customer variable is copied into another variable and one variable modifies the object
+            //* Since ⁠Customer⁠ is defined as a ⁠class⁠, it is a Reference Type.When copied, both variables point to the same object in memory(on the Heap).Modifying the object through one variable will affect the other variable since they reference the same object.
             #endregion
 
         }
